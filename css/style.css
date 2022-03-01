@@ -1,0 +1,195 @@
+/*RESET CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Nunito Sans', sans-serif;
+	vertical-align: baseline;
+	text-decoration: none;
+	list-style: none;
+}
+/* HTML5 display-role reset para navegadores antiguos */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*ESTILO BASE DE NUESTRO SITIO*/
+*{
+	margin: 0;
+	padding: 0;
+	/*RESETEAR MODELO CAJA PARA CONTROLAR ANCHURA ELEMENTOS*/
+	/*box-sizing: border-box;*/
+	font-family: 'Nunito Sans', sans-serif;
+	
+}
+/*ESTILO BODY*/
+body {
+	background-color: #AFAD55;
+}
+
+
+
+/*ESTILO TIPOGRAFICOS*/
+
+h1{
+	font-weight: 800;
+	font-size: 3rem;
+	color:#FFFFFF
+}
+
+h2{
+	font-weight: 700;
+	font-size: 4rem;
+	color:#E63D1E
+
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: 500;
+	color:#E63D1E
+
+	
+}
+
+h4 {
+	font-size: 1.4rem;
+	font-weight: 700;
+	
+
+}
+
+p{
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+
+/*ESTILO CARROUSEL*/
+
+.carousel-item {
+	height: 32rem;
+	position: relative;
+}
+
+.overlay-image{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+
+
+}
+/*ESTILO LOGO NAV BAR*/
+.logo{
+	style="width:100%; 
+	height:auto; 
+	max-width: 300px; 
+	min-width: 40px;
+	padding: 0.1rem;
+	
+}
+
+.nav_links ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.nav_links li {
+	
+	font-weight: 700;
+	color:#FFFFFF ;
+
+
+}
+
+.nav_links li a{
+	color:#FFFFFF ;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	padding: 0.1rem;
+
+
+}
+
+.nav_links li a:hover {
+	color: #514F16;
+
+
+}
+
+/*ESTILO CARDS*/
+
+.card-img-top{
+	style="width:100%; 
+	height:auto; 
+	max-width: 100px; 
+	min-width: 10px;
+	padding: 1rem;
+	margin: auto;
+
+}
+
+/*ESTILO FOOTER*/
+
+
+
+/*footer{
+
+	grid-area: footer;
+	padding: 20px;
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	background-color: #FFFFFF;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+
+}*/
+
+/*ESTILO LOGOS*/
+
+.logo_redes{
+	width: 50px;
+	height: auto;
+	padding: 7px;
+	display: inline-flex;
+	cursor: pointer;
