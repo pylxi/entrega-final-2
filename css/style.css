@@ -53,9 +53,21 @@ table {
 	font-family: 'Nunito Sans', sans-serif;
 	
 }
+
+/*PSEUDO CLASES*/
+
+:root{
+	--fondoPrimario:#AFAD55 ;
+	--rosa:#ffb7c5 ;
+	--verde_oscuro:#514F16 ;
+}
+
+a:hover{
+	background-color: var(--rosa);
+}
 /*ESTILO BODY*/
 body {
-	background-color: #AFAD55;
+	background-color: var(--fondoPrimario);
 	margin: 0;
 }
 
@@ -66,20 +78,20 @@ body {
 h1{
 	font-weight: 800;
 	font-size: 3rem;
-	color:#514F16
+	color:var(--verde_oscuro);
 }
 
 h2{
 	font-weight: 700;
 	font-size: 4rem;
-	color:#514F16
+	color:var(--verde_oscuro);
 
 }
 
 h3 {
 	font-size: 2rem;
 	font-weight: 500;
-	color:#514F16
+	color:var(--verde_oscuro);
 
 	
 }
